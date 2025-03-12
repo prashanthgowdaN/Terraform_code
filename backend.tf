@@ -1,9 +1,9 @@
-terraform {
-  backend "remote" {
-    organization = "TerraformPN"
+#terraform {
+ # backend "remote" {
+  #  organization = "TerraformPN"
 
-    workspaces {
-      name = "Test3117"
-    }
-  }
-}
+   # workspaces {
+    #  name = "Test3117"
+    #}
+  #}
+#}
