@@ -1,6 +1,12 @@
-aws_access_key = "AKIAVFIWISPQPCZOFGSO"
-aws_secret_key = "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"
+variable "aws_access_key" {
+  description = "The AWS access key"
+  type        = string
+}
 
+variable "aws_secret_key" {
+  description = "The AWS secret access key"
+  type        = string
+}
 variable "ami_id" {
   description = "The AMI ID to use for the EC2 instance"
   type        = string
