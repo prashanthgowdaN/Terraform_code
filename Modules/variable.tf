@@ -1,5 +1,5 @@
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
+aws_access_key = "AKIAVFIWISPQPCZOFGSO"
+aws_secret_key = "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"
 
 variable "ami_id" {
   description = "The AMI ID to use for the EC2 instance"
